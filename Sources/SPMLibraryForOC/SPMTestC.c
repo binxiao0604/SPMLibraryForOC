@@ -6,3 +6,7 @@
 //
 
 #include "include/SPMTestC.h"
+
+void testC() {
+    printf("test c function");
+}

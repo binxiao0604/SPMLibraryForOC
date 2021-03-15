@@ -9,4 +9,8 @@
 
 @implementation SPMTestMixed
 
+void testCplus() {
+    printf("test c++ function");
+}
+
 @end

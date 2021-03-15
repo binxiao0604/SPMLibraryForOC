@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface SPMTestMixed : NSObject
 
+void testCplus();
+
 @end
 
 NS_ASSUME_NONNULL_END

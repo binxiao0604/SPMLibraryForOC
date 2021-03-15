@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface SPMTestOC : NSObject
 
+- (void)testOC;
+
 @end
 
 NS_ASSUME_NONNULL_END

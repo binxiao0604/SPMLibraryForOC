@@ -10,4 +10,6 @@
 
 #include <stdio.h>
 
+void testC();
+
 #endif /* SPMTestC_h */

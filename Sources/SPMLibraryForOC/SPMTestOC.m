@@ -9,4 +9,8 @@
 
 @implementation SPMTestOC
 
+- (void)testOC {
+    NSLog(@"test oc function");
+}
+
 @end
