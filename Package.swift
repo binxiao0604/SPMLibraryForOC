@@ -21,8 +21,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "SPMLibraryForOC",
-            publicHeadersPath: "../SPMLibraryForOC",
-            dependencies: []),
+            dependencies: [],
+            publicHeadersPath: "../SPMLibraryForOC"),
         .testTarget(
             name: "SPMLibraryForOCTests",
             dependencies: ["SPMLibraryForOC"]),
