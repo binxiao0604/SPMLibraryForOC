@@ -14,6 +14,7 @@ let package = Package(
     targets: [
         .target(
             name: "SPMLibraryForOC",
-            publicHeadersPath: "../SPMLibraryForOC")
+            path: "Sources/SPMLibraryForOC"
+            publicHeadersPath: "../Sources/SPMLibraryForOC/include")
     ]
 )
