@@ -6,11 +6,27 @@
 //
 
 #import "include/SPMTestMixed.h"
+#import <iostream>
 
 using namespace std;
 
-const char *name = "HotpotCat";
+class HotpotTest {
+    private:
+        const char *name = "HotpotCat";
+    public:
+        void testCplus(){
+            cout<<"testCplus"<<name<<endl;
+        }
+};
 
-void testCplus(){
-    cout<<"testCplus"<<name<<endl;
+@implementation SPMTestMixed
+
+- (void)testCplus {
+    NSLog(@"testCplus function");
+    //创建对象
+    HotpotTest hpTest;
+    hpTest.testCplus();
 }
+
+@end
+

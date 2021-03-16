@@ -5,11 +5,14 @@
 //  Created by ZP on 2021/3/15.
 //
 
-#include <iostream>
+#import <Foundation/Foundation.h>
 
-class Student {
-    private:
-        const char *name;
-    public:
-        void testCplus();
-};
+NS_ASSUME_NONNULL_BEGIN
+
+@interface SPMTestMixed : NSObject
+
+- (void)testCplus;
+
+@end
+
+NS_ASSUME_NONNULL_END

@@ -8,5 +8,5 @@
 #include "include/SPMTestC.h"
 
 void testC() {
-    printf("test c function");
+    printf("test c function\n");
 }
