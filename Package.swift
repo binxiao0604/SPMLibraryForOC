@@ -8,17 +8,17 @@ let package = Package(
     products: [
         .library(
             name: "SPMLibraryForOC",
-            type: .static,
+//            type: .static,
             targets: ["SPMLibraryForOC"]
         ),
     ],
     targets: [
         .target(
-            name: "SPMLibraryForOC",
+            name: "SPMLibraryForOC"
             //源文件路径，默认Sources/SPMLibraryForOC
-            path: "Sources/SPMLibraryForOC",
+//            path: "Sources/SPMLibraryForOC"
             //默认路径 path/include
-            publicHeadersPath: "../Sources/SPMLibraryForOC/include"
+//            publicHeadersPath: "Sources/SPMLibraryForOC/include"
         )
     ]
 )
