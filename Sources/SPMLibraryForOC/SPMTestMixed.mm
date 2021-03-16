@@ -7,10 +7,10 @@
 
 #import "include/SPMTestMixed.h"
 
-@implementation SPMTestMixed
+using namespace std;
 
-void testCplus() {
-    printf("test c++ function");
+const char *name = "HotpotCat";
+
+void testCplus(){
+    cout<<"testCplus"<<name<<endl;
 }
-
-@end

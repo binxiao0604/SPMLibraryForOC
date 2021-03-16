@@ -5,14 +5,11 @@
 //  Created by ZP on 2021/3/15.
 //
 
-#import <Foundation/Foundation.h>
+#include <iostream>
 
-NS_ASSUME_NONNULL_BEGIN
-
-@interface SPMTestMixed : NSObject
-
-void testCplus();
-
-@end
-
-NS_ASSUME_NONNULL_END
+class Student {
+    private:
+        const char *name;
+    public:
+        void testCplus();
+};
